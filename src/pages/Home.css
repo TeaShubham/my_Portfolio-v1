@@ -1,0 +1,42 @@
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .home-subtitle {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .home-buttons {
+    margin-top: 20px;
+  }
+  
+  .home-buttons a {
+    text-decoration: none;
+    color: white;
+    background: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 5px;
+    display: inline-block;
+  }
+  
+  .home-buttons a:hover {
+    background: #0056b3;
+  }
+  
